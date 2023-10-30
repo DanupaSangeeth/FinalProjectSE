@@ -12,7 +12,7 @@ const Attract = () => {
         {name:"Select Driving school", description:"Here you can inform the customers about the traffic rules and conduct a campaign.",href:"/"},
         {name:"Register for Exams ", description:"Here you can inform customers about license renewal and conduct a campaign." },
         {name:"View Result", description:"Here you can inform customers about what to do when a license is lost." },
-        {name:"View E-License", description:"Here you can inform customers about what to do when a license is lost." },
+        
        
     ]
         
@@ -38,6 +38,7 @@ const Attract = () => {
         }
       </div>
     </div>
+ 
   );
 };
 
