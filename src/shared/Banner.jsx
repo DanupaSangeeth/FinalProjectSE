@@ -16,7 +16,7 @@ const Banner = ( {banner, heading, subheading, btn1})=> {
               <p className='text-[#EBEBEB] text-2xl mb-8'>{subheading}</p>
            
             <div className='space-x-5 space-y-4' data-aos="zoom-out-right">
-                <button className='btnPrimary'>{btn1}</button>
+               <a href="/department"> <button className='btnPrimary'>{btn1}</button></a>
                
             </div>
             </div>

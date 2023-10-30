@@ -10,6 +10,7 @@ import Dcard from "../Dcard/Dcard"
 
 
 
+
 const Home=()=> {
   return (
     <div>
@@ -19,7 +20,7 @@ const Home=()=> {
           <Features/>
           <Payments/>
           <Campaigns/>
-          <Attract/>
+          
           <Dcard/>
           <Footer/>
           

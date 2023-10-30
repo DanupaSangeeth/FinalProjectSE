@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import logo from '../../assets/e31.png'
-//react icons
 import { GrLanguage } from "react-icons/gr";
 import{FaBars, FaXmark} from 'react-icons/fa6'
 import { Link } from 'react-scroll';
@@ -22,7 +21,7 @@ const Navbar = () => {
     ]
   return (
     <>
-    <nav className='bg-indigo-300 md:px-14 p-4 max-w-screen-2xl border-b mx-auto text-primary fixed top-0 right-0 left-0 '>
+    <nav className='bg-indigo-300 md:px-14 p-4 max-w-screen-2xl border-b mx-auto text-primary fixed top-0 right-0 left-0 rounded-br-3xl rounded-bl-3xl'>
         <div className='text-lg container mx-auto flex justify-between items-center font-medium'>
             <div className='flex space-x-14 items-center'>
                 <a id='image' href="/" className='text-2x1 font-semibold flex items-center space-x-3 text-primary'>
